@@ -1,5 +1,5 @@
 const initialState = {
-    isRunning: true
+    motd: 'Welcome To Time!'
 };
 
 const appReducer = (state = initialState, action) => {
