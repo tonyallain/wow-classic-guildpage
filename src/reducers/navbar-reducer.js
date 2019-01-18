@@ -1,7 +1,7 @@
 import * as TYPES from '../actions/actionTypes';
 
 const initialState = {
-    choices: ['Tony', 'Joby', 'Jimby'],
+    choices: ['Home', 'Roster', 'Apply'],
     activeChoice: 0
 };
 
