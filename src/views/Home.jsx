@@ -1,14 +1,7 @@
 import React from 'react';
-import Canvas from '../containers/Canvas';
-import Navbar from '../containers/Navbar';
 
 const Home = () => {
-    return (
-        <div>
-            <Navbar />
-            <Canvas />
-        </div>
-    );
+    return <div>Navbar was moved</div>;
 };
 
 export default Home;

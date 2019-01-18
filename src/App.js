@@ -1,9 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
+import Navbar from './containers/Navbar';
+import Home from './views/Home';
 
-class App extends Component {
-    render() {
-        return <div className='app'>{this.props.motd}</div>;
-    }
-}
+const App = () => {
+    return (
+        <div>
+            <Navbar />
+            <Home />
+        </div>
+    );
+};
 
 export default App;
