@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import Home from './views/Home';
 
 class App extends Component {
     render() {
-        return <Home />;
+        return <div className='app'>{this.props.motd}</div>;
     }
 }
 

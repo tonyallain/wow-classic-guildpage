@@ -1,7 +1,14 @@
 import React from 'react';
+import Canvas from '../containers/Canvas';
+import Navbar from '../containers/Navbar';
 
-const Home = props => {
-    return <div className='home'>{props.motd}</div>;
+const Home = () => {
+    return (
+        <div>
+            <Navbar />
+            <Canvas />
+        </div>
+    );
 };
 
 export default Home;
