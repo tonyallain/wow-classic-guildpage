@@ -1,16 +1,16 @@
 import React from 'react';
 import { Menu } from 'semantic-ui-react';
 
-const NavbarMenu = props => {
+const NavbarMenu = ({ choices, activeChoice, selectNavbarChoice }) => {
     return (
         <Menu>
-            {props.choices.map((choice, index) => {
+            {choices.map((choice, index) => {
                 return (
                     <Menu.Item
                         name={choice}
-                        active={props.activeChoice === index}
+                        active={activeChoice === index}
                         onClick={() => {
-                            props.selectNavbarChoice(index);
+                            selectNavbarChoice(index);
                         }}
                     >
                         {choice}
